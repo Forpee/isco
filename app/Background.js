@@ -16,7 +16,7 @@ export default class {
       vertex,
       fragment,
       uniforms: {
-        uColor: { value: new Color('#c4c3b6') }
+        uColor: { value: new Color('#0D0D0F') }
       },
       transparent: true
     })
