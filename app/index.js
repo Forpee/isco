@@ -21,7 +21,8 @@ import Image12 from "images/12.jpg";
 import logo from "images/logo.png"
 import Media from "./Media";
 import Background from "./Background";
-
+import slide3 from "images/slide3.jpg"
+import cuplogo from "images/cuplogo.png"
 export default class App {
   constructor() {
     document.documentElement.classList.remove("no-js");
