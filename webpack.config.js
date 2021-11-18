@@ -97,7 +97,7 @@ module.exports = {
         loader: 'file-loader',
         options: {
           name (file) {
-            return '[name].[ext]'
+            return '[hash].[ext]'
           },
         }
       },

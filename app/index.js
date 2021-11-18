@@ -16,8 +16,7 @@ import Image7 from "images/sccolombia.png";
 import Image8 from "images/frenchconnection.png";
 import Image9 from "images/fcespanol.png";
 import Image10 from "images/haiti.png";
-import Image11 from "images/11.jpg";
-import Image12 from "images/12.jpg";
+
 import logo from "images/logo.png"
 import Media from "./Media";
 import Background from "./Background";
