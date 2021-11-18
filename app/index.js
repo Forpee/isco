@@ -18,7 +18,7 @@ import Image9 from "images/fcespanol.png";
 import Image10 from "images/haiti.png";
 import Image11 from "images/11.jpg";
 import Image12 from "images/12.jpg";
-
+import logo from "images/logo.png"
 import Media from "./Media";
 import Background from "./Background";
 
@@ -278,6 +278,8 @@ export default class App {
     window.addEventListener("touchend", this.onTouchUp.bind(this));
   }
 }
+
+///curtains
 window.addEventListener("load", () => {
   // track the mouse positions to send it to the shaders
   const mousePosition = new Vec2();

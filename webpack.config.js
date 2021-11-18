@@ -51,7 +51,10 @@ module.exports = {
         test: /\.pug$/,
         use: ['pug-loader']
       },
-
+         {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },
       {
         test: /\.js$/,
         use: {
@@ -94,8 +97,8 @@ module.exports = {
         loader: 'file-loader',
         options: {
           name (file) {
-            return '[hash].[ext]'
-          }
+            return '[name].[ext]'
+          },
         }
       },
 
